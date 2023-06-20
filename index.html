@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href=""><img src="home.png" alt="" width="25">Home</a>
+            <a href=""><img src="music.png" alt="" width="25">Songs</a>
+            <a href=""><img src="about.png" alt="" width="25">About Us</a>
+            <a href=""><img src="help.png" alt="" width="25">Help</a>
+            <a href=""><img src="contact.png" alt="" width="25">Contact Us</a>
+        </nav>
+        <img src="menu.png" alt="" width="25" class="menu">
+    </header>
+    <main>
+        <div class="music-details">
+            <img src="wizkid.jpg" alt="image" width="200" class="picture">
+            <h1 class="artist-name">WIZKID</h1>
+            <p class="artist-song"><marquee behavior="alternate" direction="right">on the low</marquee></p>
+
+            <audio controls class="song">
+                <source src="music.mp3"></source>
+            </audio>
+        </div>
+
+        <div class="music-controls">
+            <input type="range" class="progress" value="0">
+            <div class="control-btns">
+                <img src="prev.png" alt="" width="35" class="prev">
+                <img src="play.png" alt="" width="35" class="play">
+                <img src="next.png" alt="" width="35" class="next">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Copy-Right 2023. All Rights Reserved. Powered By Prosper.</p>
+    </footer>
+    
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
